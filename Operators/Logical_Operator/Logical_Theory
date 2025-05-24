@@ -1,0 +1,12 @@
+* Logical Operator : This operator are used for logical descision making purpose. The operand types of a logical type is boolean type
+    Logical operators are : 1)AND Operator (&&)
+                            2)OR Operator (||)
+                            3)NOT Operator (!)
+1) AND Operator : it is a binary operator. The Symboll is "&&" and this operator return true is the both operands are true.
+    * truth table:
+
+2) OR Operator : It is a binary Operator. OR operator return ture if any one of operand are true.The symbol for this is (||)
+    * Truth Table;
+
+3) NOT Operator : It is an unary Operator which gave the opposite value.Symbol for this is.
+    * Truth Table
