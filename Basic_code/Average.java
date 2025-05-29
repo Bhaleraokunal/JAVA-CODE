@@ -1,4 +1,4 @@
-class Addition 
+class Average 
 {
     public static void main(String[] args) 
     {
