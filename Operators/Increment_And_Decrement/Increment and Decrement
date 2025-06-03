@@ -1,0 +1,23 @@
+Increment Operator : "It is a unary operator" there are two types of this 
+                      1) Pre-increment
+                      2) Post-increment
+                      
+    1) Pre-increment: "If a variable is prefiexd with the '++' this then it is know as pre-increment."
+                    Syntax :
+                            "++variable"
+                            
+    2) Post-Increment : "If the variable is suffixed with the '++' this then it is know as a post-increment."
+                    Syntax : 
+                            "variable++"
+                              
+Derecment Operator : "it is also a binary operator which consist of two types."
+                      1) Pre-decrement
+                      2) Post-decrement
+
+    1) Pre-decrement : "If a vriable is preffixed with this '--' then it is know as pre-decrement operator"
+                    Syntax: 
+                            "--variable"
+
+    2) Post-decrement : "If a variable is suffixed with this "--" then it is know as post-decrement Operator."
+                    Syntax :
+                              "variable--"
