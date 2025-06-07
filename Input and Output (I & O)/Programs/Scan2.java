@@ -21,5 +21,8 @@ class Scan2
 		System.out.println("Enter your location : ");
 		String location = sc.nextLine();
 		
+		System.out.println("Enter your salary");
+		double sal = sc.nextDouble();
+		
 	}
 }
