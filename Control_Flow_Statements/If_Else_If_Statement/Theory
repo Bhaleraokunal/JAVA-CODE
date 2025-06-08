@@ -1,1 +1,29 @@
+If-Else-If ladder : " It is a decission making statement and used to check the multiple conditions."
 
+          * Syntax :
+                        if ( Condition )
+                              {
+                                    Statement1;
+                              }
+                        else if (condition2)
+                              {
+                                    Statement2;
+                              }
+                          else if (condition3)
+                              {
+                                    Statement3;
+                              }
+                            .
+                            .
+                            .
+                            .
+                            .
+                            .
+                          else
+                              {
+                                  Staement;
+                              }
+
+            *Syntax Explanation :
+
+    *Working :
