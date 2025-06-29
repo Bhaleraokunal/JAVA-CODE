@@ -3,44 +3,35 @@ class DisariumNumber
 {
 	public static void main(String[] args) 
 	{
-		Scanner sc = new Scanner (System.in);
-		System.out.println("Enter your number :");
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter your number:");
 		int num = sc.nextInt();
-		
-		System.out.println("Enter your ending number :");
+		System.out.println("Enter your ending number:");
 		int end = sc.nextInt();
 		
 		while (num<=end)
 		{
-			int count  = 0 ;
-		int sum = 0 ;
-		
-		for (int temp=num;temp!=0 ;temp/=10 )
-		{
-			count++;
-		}
-		for (int temp=num;temp!=0 ;temp/=10 )
-		{
-			int pow = 1;
-			int rem = temp%10;
 			
-			for (int i=0;i<count ;i++ )
+			int sum = 0;
+			int ct = (int)Math.log10(num)+1;
+			
+			for (int temp=num;temp>0 ;temp/=10 )
 			{
-				pow = pow * rem;
+				int digit=temp%10;
+				int pow=1;
+				for (int i=0;i<ct ;i++ )
+				{
+					pow*=digit;
+				}
+				sum+=pow;
+				ct--;
 			}
-			sum = sum+pow;
-			count--;
-			
+			if (num==sum)
+				{
+					System.out.println(num);
+				}
 		
-		
+				num++;
 		}
-		if (sum==num)
-		{
-			System.out.println(num);
-			
-		}
-		num++;
-		}
-		
 	}
 }
