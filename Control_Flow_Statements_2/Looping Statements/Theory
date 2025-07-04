@@ -1,0 +1,9 @@
+* The loop statement helps the programmer to execute a set of instruction repedatly :
+    * Any looping statement has 3 parts :
+                                          1) Initialization.
+                                          2) Condition.
+                                          3) Updations.
+
+  1) Initialization : Specifiecs the starting point of a loop.
+  2) Condition : Used to control the loop.
+  3) Updation : It helps to reach the condition or make it false.
