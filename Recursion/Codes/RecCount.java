@@ -3,25 +3,18 @@ class RecCount
 {
 	public static void main(String[] args) 
 	{
-		Scanner sc = new Scanner (System.in);
-		System.out.println("This code only accept the positive value ");
-		System.out.println("Enter your number that you want to count of :");
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter your number :");
 		int num = sc.nextInt();
-		
-		
-		if (num==0)
-		{
-			System.out.println(1);
-		}
-		else
-		{
-			System.out.println(count(num, 0));
-		}
+		System.out.println(count(num,0));
 	}
 	
-	
-	public static int count(int num , int ct)
+	public static int count(int num, int count)
 	{
-		return num==0?ct:count(num/10, ct+1);
+		if (num==0)
+		{
+			return count;
+		}
+		return count(num/10,count+1);
 	}
 }
