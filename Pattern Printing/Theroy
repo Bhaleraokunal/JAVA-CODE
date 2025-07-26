@@ -1,0 +1,34 @@
+Java Hollow Pattern Collection
+This is a collection of Java hollow patterns printed using nested loops and condition-based logic. It highlights my skill in writing neat, clean, and well-structured console output patterns — all for optimal readability.
+
+What it Represents:
+Solid understanding of looping constructs and conditional statements
+
+Pattern logic using mathematical and spatial thinking
+
+Clean, uncluttered code with descriptive method names
+
+Modular design: each pattern in its own method
+
+ Patterns Included:
+Hollow Square
+
+Hollow Triangle
+
+Hollow Diamond
+
+Hollow Pyramid
+
+Diagonal + Border Patterns
+
+Matrix Frame & Center Crosses
+
+Ideal For:
+Interview prep (patterns are typical coding questions)
+
+Showing problem-solving & building logic skills
+
+Java console-based project demonstration
+
+ File: Patterns.java
+Just compile and run! Modify the value of n to try out different pattern sizes.
