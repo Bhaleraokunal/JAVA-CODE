@@ -11,19 +11,19 @@ class Patterns
 		
 		invertedHollowRightAngleTriangle (10);
 		
-		 hollow1(10);
+		hollow1(10);
 		 
-		  hollow2(10);
+		hollow2(10);
 		  
-		 hollow3(11);
+		hollow3(11);
 		 
-		 hollow4(11);
+		hollow4(11);
 		
-		 hollow5(11);
+		hollow5(11);
 		
-			hollow6(11);
+		hollow6(11);
 		
-		 hollow7(11);	
+		hollow7(11);	
 	}
 	
 	public static void hollowBox(int n)
