@@ -1,0 +1,75 @@
+Welcome to JAVA-CODE – a curated collection of Java programs, examples, and exercises designed for learners and enthusiasts to strengthen their understanding of Java programming. This repository covers everything from basic syntax to object-oriented programming concepts, control structures, recursion, and more.
+
+📂 Repository Structure
+
+The repository is organized into the following directories:
+
+Folder	Description
+Control_Flow_Statements	Programs demonstrating loops, conditionals, and branching statements.
+Input and Output (I & O)	Examples of Java input/output using Scanner, BufferedReader, etc.
+Methods	Programs illustrating method creation, calling, overloading, and recursion.
+OOPs	Object-Oriented Programming examples covering classes, objects, inheritance, polymorphism, encapsulation, and abstraction.
+Pattern Printing	Programs for generating various patterns using loops.
+Programs	Miscellaneous Java programs and exercises.
+Recursion/ Codes	Recursive algorithms and practice problems.
+Static	Examples showing the use of static variables, methods, and blocks.
+TypeCasting	Programs demonstrating typecasting and conversions in Java.
+🚀 Features
+
+Beginner-friendly Java programs with clear structure.
+
+Covers essential Java concepts for academic and practical purposes.
+
+Organized folder structure for easy navigation.
+
+Includes practice exercises for hands-on learning.
+
+Useful for BCA/B.Tech students, beginners, and anyone learning Java.
+
+💻 How to Use
+
+Clone the repository:
+
+git clone https://github.com/Bhaleraokunal/JAVA-CODE.git
+
+
+Navigate to the folder of interest:
+
+cd JAVA-CODE/Control_Flow_Statements
+
+
+Open the .java file in your favorite IDE (Eclipse, IntelliJ, or VS Code) and run the program.
+
+🛠️ Technologies Used
+
+Java SE (Standard Edition)
+
+Object-Oriented Programming Concepts
+
+Recursion, Loops, and Conditionals
+
+File I/O (Input/Output)
+
+📖 Contributing
+
+Contributions are welcome! If you want to add new Java programs or improve existing ones:
+
+Fork the repository.
+
+Create a new branch (git checkout -b feature/your-feature).
+
+Commit your changes (git commit -m 'Add new program').
+
+Push to the branch (git push origin feature/your-feature).
+
+Open a Pull Request.
+
+📌 License
+
+This project is open-source and available under the MIT License
+.
+
+🎯 Author
+
+Kunal Bhalerao
+BCA Student | Java Enthusiast | GitHub: Bhaleraokunal
