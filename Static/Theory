@@ -1,0 +1,41 @@
+Static Block : "A block which is declared inside the class block and pre-fix with an static modifier is know as the static block ."
+
+points :
+        1) A static block dose not have any name.
+        2) A static block does not have any acess modifier.
+        3) A static block does not have any return type
+        4) A static block dose not have any formal argument.
+
+Syntax :
+
+        class callsname
+          {
+              static
+                {
+
+                }
+          }
+
+
+Simple basic code  :  
+
+                  class StaticMethod1 
+                {
+                	static 
+                	{
+                		System.out.println("From the static block 1");
+                	}
+                		
+                	public static void main(String[] args) 
+                	{
+                		System.out.println("Hello World!");
+                	}
+                	
+                	static 
+                	{
+                		System.out.println("Form the static block 2");
+                	}
+                }
+
+
+

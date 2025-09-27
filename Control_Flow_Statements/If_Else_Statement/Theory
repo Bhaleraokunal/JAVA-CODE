@@ -1,0 +1,17 @@
+If else Statement : "If else is a condition with a block which contain the statements along with a else block which also contain the statement."
+                    1) The condition must be a boolean type in a If block.
+                    2) If the condition evaluate to true then the if block statement will execute and the else block will skipped.
+                    3) If the condition evaluate to flase then the statement in the else block will execute and the if block will be skipped.
+                    4) in if-else statement only one block will execute it eigther if block or else block.
+    * Syntax : 
+              if ( condition )
+                {
+                    Statement1;
+                }
+              else
+                {
+                    Statement2;
+                }
+
+
+"In this directory there are a lot of program based on the if-else statement and in the future there will be more."

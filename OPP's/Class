@@ -1,0 +1,17 @@
+Class : It is a user-define non-primitive data type which represent a blue print of an object and provide all the specification of the object.
+      
+      "Form the above statement we can say that a class is used to create a object."
+
+ *How to craete a class or a empty blue print :
+
+ Syntax :
+          class ClassName
+            {
+
+            }
+
+  Example :
+          class Shoe
+            {
+
+            }

@@ -1,0 +1,51 @@
+* Conditional Operator : "It is a Ternary Operator used for decision making purpose."
+
+* Syntax :  condition ? value/expression : value/expression ; 
+
+          if the condition is ture then the first value/expresion show and if it is false then the second expression dispaly.
+
+* Rules :
+          1) Operation 1 must be a condition.
+          2) The condition must be boolean type.
+          3) the result type of conditional operator depend ont the value/expression types.
+
+* Rule no 1 ): 
+
+class Conditional3 
+{
+	public static void main(String[] args) 
+	{
+		int num1 = 12;
+		int num2 = 12;
+		
+		int ans = num1? num2: num1 == num2; //incompatible types: int cannot be converted to boolean
+		
+		System.out.println(ans);
+	}
+}
+
+This is the error you get Conditional3.java:8: error: incompatible types: int cannot be converted to boolean
+                int ans = num1? num2: num1 == num2;
+                          ^
+Conditional3.java:8: error: incompatible types: INT#1 cannot
+-------------------------------------------------------------------------------------------------------------------------------
+
+* Rule no 2) :
+class Conditional3 
+{
+	public static void main(String[] args) 
+	{
+		int num1 = 12;
+		int num2 = 12;
+
+    // must be an boolean condition.
+
+		int ans = num1 * num2 ? num1 : num2 ; // incompatible types: int cannot be converted to boolean
+		
+		System.out.println(ans);
+	}
+}
+
+This is the error we get : 
+Conditional3.java:8: error: incompatible types: int cannot be converted to boolean
+                int ans = num1 * num2 ? num1 : num2 ;

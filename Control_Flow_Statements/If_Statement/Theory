@@ -1,0 +1,10 @@
+IF Statement : It is keyword in java.
+Working :  
+          1) An 'If' statements has condition with a block which contain the statements.
+          2) The Condition must be a boolean types.
+          3) IF the condition evaluate to true the statement of the 'if' block will exectue, if the condition evalute to flase then the if block will be skipped.
+Syntax :
+        if ( condition ) ; ---------->  must be a boolean type
+          {
+             //statements
+          }

@@ -1,0 +1,9 @@
+  Object : In programmatically a object is a block of memory which get created a runtime in the heap area which represent the               real world (object) entity.
+
+* Every object has two things to conside :
+                                            1) Attributes / properties.
+                                            2) Behaviour / Actions.
+
+ * Attributes :  It used to define the identify the object .
+
+ * Behaviour : It specify how the obejct can be used.
