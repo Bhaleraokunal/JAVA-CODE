@@ -1,6 +1,5 @@
 package arrays;
 
-import java.util.Iterator;
 
 public class DupplicateArray {
 

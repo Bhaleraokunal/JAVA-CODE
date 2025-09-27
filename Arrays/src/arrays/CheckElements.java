@@ -21,6 +21,6 @@ public class CheckElements {
 		if (!found) {
 			System.out.println("Sorry but the number is not present in the array ");
 		}
-		
+		sc.close();
 	}
 }
