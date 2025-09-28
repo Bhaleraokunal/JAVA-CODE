@@ -12,10 +12,6 @@ public class CountOfPrimeInArray {
 			}
 		}
 		System.out.println(count);
-		
-		
-		System.out.println(Math.sqrt(21));
-		System.out.println(21/2);
 	}
 	
 	public static boolean isPrime(int num) {
